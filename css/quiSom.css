@@ -1,0 +1,301 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@700&display=swap');
+
+*,
+*:before,
+*:after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body, html {
+  height: 100%;
+  background-color: #EEEEEE;
+}
+.caixagran {
+  width: 100%;
+  height: 100%;
+}
+.img1{
+  margin-left: 14%;
+  position: absolute;
+}
+.menu {
+  width: 100%;
+  margin: 1% auto 0 auto;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  background-color: #f9f9f9;
+  max-width: 1400px;
+}
+.menu .caixa1 {
+  width: 100%;
+  padding: 10px;
+  height: 760px;
+  background-color: darkorange;
+}
+.menu .caixa2 {
+  width: 100%;
+  height: 700px;
+  background-color: #f9f9f9;
+}
+.menu .caixa3 {
+  width: 100%;
+  padding: 10px;
+  height: 500px;
+  background-color: darkorange;
+}
+.menu .contacte {
+  width: 100%;
+  padding: 20px 50px;
+  margin-bottom: 30px;
+  font-family: "Open Sans", sans-serif;
+}
+.menu .contacte p {
+  padding: 10px 0px;
+}
+.menu ul {
+  margin-left: 34%;
+  font-size: 0;
+  list-style-type: none;
+}
+.menu ul li {
+  font-family: "Open Sans", sans-serif;
+  font-size: 1rem;
+  font-weight: 650;
+  color: #333;
+  display: inline-block;
+  padding: 15px;
+  position: relative;
+  margin-left: 20px;
+}
+.menu ul li ul {
+  display: none;
+}
+.menu ul li:hover {
+  background-color: #f2f2f2;
+}
+.menu ul li:hover ul {
+  display: block;
+  margin-top: 15px;
+  margin-left: -1px;
+  width: 200px;
+  left: 0;
+  position: absolute;
+}
+.menu ul li:hover ul li {
+  display: block;
+  background-color: #e7e7e7;
+}
+.menu ul li:hover ul li span {
+  float: right;
+  color: #f9f9f9;
+  background-color: #F03861;
+  padding: 2px 5px;
+  text-align: center;
+  font-size: 0.8rem;
+  border-radius: 3px;
+}
+.menu ul li:hover ul li:hover {
+  background-color: #e0e0e0;
+}
+.menu ul li:hover ul li:hover span {
+  background-color: #ee204e;
+}
+.menu .linia1{
+  margin-top: 20px;
+}
+.caixaTitol1 .linia1{
+  position: absolute;
+  top: 20%;
+  left: 620px;
+  transform: translate(-50%, -50%);
+}
+.caixaText2 {
+  width: 80%;
+  margin-top: 50px;
+  margin-left: 150px;
+  margin-right: 90px;
+  margin-bottom: 20px;
+  color: darkorange;
+  padding: 10px 0px;
+  text-align: justify;
+  font-family: 'Ubuntu', sans-serif;
+}
+.caixaTitol1 h1{
+  position: absolute;
+  top: 20%;
+  left: 50%;
+  text-align: center;
+  color: white;
+  font-family: 'Ubuntu', sans-serif;
+  transform: translate(-50%, -50%);
+}
+.caixaTitol2 h1{
+  margin-top: 20px;
+  margin-bottom: 20px;
+  text-align: center;
+  color: darkorange;
+  font-family: 'Ubuntu', sans-serif;
+}
+.caixaTitol3 h1{
+  margin-top: 20px;
+  margin-bottom: 20px;
+  color: white;
+  font-family: 'Ubuntu', sans-serif;
+  text-align: center;
+}
+.imgHorari{
+  height: 80px;
+  width: 900px;
+  margin-left: 220px;
+  margin-top: 80px;
+}
+.linia1{
+  margin-top: 10px;
+  margin-left: 340px;
+  width: 50%;
+}
+.textSobreImatge1{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-family: 'Ubuntu', sans-serif;
+  color: white;
+}
+.imgSalaPCs{
+  margin-left: -10px;
+  width:1400px;
+  height:750px;
+  opacity: 0.5;
+}
+.mapa1{
+  margin-top: 20px;
+}
+.caixaMapes iframe{
+  position: absolute;
+  top: 139%;
+  left: 75%;
+  transform: translate(-50%, -50%);
+}
+.contacte pre{
+  width: 100%;
+  margin-bottom: 20px;
+  font-family: 'Ubuntu', sans-serif;
+  padding: 10px 0px;
+  text-align: center;
+}
+
+@media only screen and (max-width: 600px) {
+
+.img1{
+  position: relative;
+  margin-left: 30%;
+}
+.menu ul{
+  margin-left: -1px;
+}
+.caixa1 hr{
+  margin-left: -1px;
+  margin-left: 20px;
+  width: 90%;
+}
+.caixa2 hr{
+  margin-left: -1px;
+  margin-left: 20px;
+  width: 90%;
+}
+.caixa3 hr{
+  margin-left: -1px;
+  margin-left: 20px;
+  width: 90%;
+}
+.caixaTitol1 h1{
+  text-align: center;
+}
+.caixaText1{
+  width: 60%;
+  margin-top: 50px;
+  margin-left: 100px;
+  margin-bottom: 20px;
+  color: darkorange;
+  text-align: justify;
+  font-family: 'Ubuntu', sans-serif;
+}
+.textSobreImatge1{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-family: 'Ubuntu', sans-serif;
+  color: white;
+  margin-top: -80px;
+}
+.caixaText2 h1{
+  margin-left: -20px;
+}
+.caixaText3 h1{
+  margin-left: -20px;
+}
+.imgSalaPCs{
+  margin-left: -10px;
+  width:438px;
+  height:400px;
+  opacity: 0.5;
+}
+.caixaTitol1 hr{
+  display: none;
+}
+.menu .caixa1 {
+  width: 100%;
+  height: 410px;
+  background-color: darkorange;
+}
+.menu .caixa2 {
+  width: 100%;
+  height: 750px;
+}
+.menu .caixa3 {
+  width: 100%;
+  height: 300px;
+}
+.mapa1{
+  height: 300px;
+  width: 435px;
+  margin-right: -20px;
+}
+.caixaMapes iframe{
+  position: absolute;
+  top: 130%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.imgHorari{
+  height: 95%;
+  width: 95%;
+  margin-left: 10px;
+  margin-top: 80px;
+}
+.contacte{
+  width: 80%;
+  margin-bottom: 10px;
+  font-family: 'Ubuntu', sans-serif;
+  padding: 10px 0px;
+  font-size: 11px;
+}
+.imgSalaPCs{
+  margin-left: -10px;
+  width:437px;
+  height:400px;
+  opacity: 0.5;
+}
+.menu ul li {
+  font-family: "Open Sans", sans-serif;
+  font-size: 1rem;
+  font-weight: 650;
+  color: #333;
+  display: inline-block;
+  padding: 10px;
+  position: relative;
+}
+
+}

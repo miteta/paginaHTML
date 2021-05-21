@@ -1,0 +1,669 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@700&display=swap');
+
+*,
+*:before,
+*:after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body, html {
+  height: 100%;
+  background-color: #EEEEEE;
+}
+.caixagran {
+  width: 100%;
+  height: 100%;
+}
+.img1{
+  margin-left: 14%;
+  position: absolute;
+}
+.menu {
+  width: 100%;
+  margin: 1% auto 0 auto;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  background-color: #f9f9f9;
+  max-width: 1400px;
+}
+.menu .caixa1 {
+  width: 100%;
+  padding: 10px;
+  height: 500px;
+  background-color: darkorange;
+}
+.menu .caixa1-1 {
+  width: 100%;
+  padding: 10px;
+  height: 500px;
+  background-color: darkorange;
+}
+.menu .caixa2 {
+  width: 100%;
+  height: 500px;
+  background-color: #f9f9f9;
+}
+.menu .caixa2-2 {
+  width: 100%;
+  height: 400px;
+  background-color: #f9f9f9;
+}
+.menu .caixa3 {
+  width: 100%;
+  padding: 10px;
+  height: 500px;
+  background-color: darkorange;
+}
+.menu .contacte {
+  width: 100%;
+  padding: 20px 50px;
+  margin-bottom: 30px;
+  font-family: "Open Sans", sans-serif;
+  background-color: darkorange;
+}
+.menu .contacte p {
+  padding: 10px 0px;
+  color: #fff;
+}
+.menu ul {
+  margin-left: 34%;
+  font-size: 0;
+  list-style-type: none;
+}
+.menu ul li {
+  font-family: "Open Sans", sans-serif;
+  font-size: 1rem;
+  font-weight: 650;
+  color: #333;
+  display: inline-block;
+  padding: 15px;
+  position: relative;
+  margin-left: 20px;
+}
+.menu ul li ul {
+  display: none;
+}
+.menu ul li:hover {
+  background-color: #f2f2f2;
+}
+.menu ul li:hover ul {
+  display: block;
+  margin-top: 15px;
+  margin-left: -1px;
+  width: 200px;
+  left: 0;
+  position: absolute;
+}
+.menu ul li:hover ul li {
+  display: block;
+  background-color: #e7e7e7;
+}
+.menu ul li:hover ul li span {
+  float: right;
+  color: #f9f9f9;
+  background-color: #F03861;
+  padding: 2px 5px;
+  text-align: center;
+  font-size: 0.8rem;
+  border-radius: 3px;
+}
+.menu ul li:hover ul li:hover {
+  background-color: #e0e0e0;
+}
+.menu ul li:hover ul li:hover span {
+  background-color: #ee204e;
+}
+.menu .linia1{
+  margin-top: 20px;
+}
+.caixaTitol1 .linia1{
+  top: 20%;
+  left: 620px;
+}
+.caixaText1 {
+  width: 80%;
+  margin-left: 30px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  color: white;
+  padding: 10px 0px;
+  font-family: 'Ubuntu', sans-serif;
+}
+.caixaText2 {
+  width: 80%;
+  margin-top: 50px;
+  margin-left: 150px;
+  margin-right: 90px;
+  margin-bottom: 20px;
+  color: darkorange;
+  padding: 10px 0px;
+  text-align: justify;
+  font-family: 'Ubuntu', sans-serif;
+}
+.caixaText3 {
+  width: 80%;
+  margin-left: 150px;
+  margin-right: 90px;
+  margin-top: 80px;
+  margin-bottom: 20px;
+  color: darkorange;
+  padding: 10px 0px;
+  font-family: 'Ubuntu', sans-serif;
+}
+.caixaTitol1 h1{
+  top: 50%;
+  left: 50%;
+  text-align: center;
+  color: white;
+  font-family: 'Ubuntu', sans-serif;
+}
+.caixaTitol2 h1{
+  margin-top: 20px;
+  margin-bottom: 20px;
+  text-align: center;
+  color: darkorange;
+  font-family: 'Ubuntu', sans-serif;
+}
+.caixaTitol3 h1{
+  margin-top: 20px;
+  margin-bottom: 20px;
+  color: white;
+  font-family: 'Ubuntu', sans-serif;
+  text-align: center;
+}
+.boto1 {
+  width:10%;
+  padding:8px 16px;
+  margin-top:32px;
+  margin-left: 180px;
+  border:1px solid #000;
+  border-radius:5px;
+  display:block;
+  color:darkorange;
+  background-color:#fff;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  text-align: center;
+  font-family: 'Ubuntu', sans-serif;
+} 
+.boto2 {
+  width:10%;
+  padding:8px 16px;
+  margin-top:-35px;
+  margin-left: 600px; 
+  border:1px solid #000;
+  border-radius:5px;
+  display:block;
+  color:darkorange;
+  background-color:#fff;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  text-align: center;
+  font-family: 'Ubuntu', sans-serif;
+} 
+.boto3 {
+  width:10%;
+  padding:8px 16px;
+  margin-top:-40px;
+  margin-left: 1030px;
+  border:1px solid #000;
+  border-radius:5px;
+  display:block;
+  color:darkorange;
+  background-color:#fff;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  text-align: center;
+  font-family: 'Ubuntu', sans-serif;
+  }
+.boto4 {
+  width:33%;
+  padding:8px 16px;
+  margin-top:120px;
+  margin-left: 200px;
+  border:1px solid #000;
+  border-radius:5px;
+  display:block;
+  color:darkorange;
+  background-color:#fff;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  font-family: 'Ubuntu', sans-serif;
+  }
+.boto5 {
+  width:30%;
+  padding:8px 16px;
+  margin-top:-220px;
+  margin-left: 830px;
+  border:1px solid #000;
+  border-radius:5px;
+  display:block;
+  color:darkorange;
+  background-color:#fff;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  font-family: 'Ubuntu', sans-serif;
+  }
+.boto6 {
+  width:10%;
+  padding:8px 16px;
+  margin-top:72px;
+  margin-left: 180px;
+  border:1px solid #000;
+  border-radius:5px;
+  display:block;
+  color:darkorange;
+  background-color:#fff;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  text-align: center;
+  font-family: 'Ubuntu', sans-serif;
+} 
+.boto7 {
+  width:15%;
+  padding:8px 16px;
+  margin-top:-35px;
+  margin-left: 590px; 
+  border:1px solid #000;
+  border-radius:5px;
+  display:block;
+  color:darkorange;
+  background-color:#fff;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  text-align: center;
+  font-family: 'Ubuntu', sans-serif;
+} 
+.boto8 {
+  width:10%;
+  padding:8px 16px;
+  margin-top:-40px;
+  margin-left: 1030px;
+  border:1px solid #000;
+  border-radius:5px;
+  display:block;
+  color:darkorange;
+  background-color:#fff;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  text-align: center;
+  font-family: 'Ubuntu', sans-serif;
+  }
+.boto9 {
+  width:10%;
+  padding:8px 16px;
+  margin-top:72px;
+  margin-left: 180px;
+  border:1px solid #000;
+  border-radius:5px;
+  display:block;
+  color:darkorange;
+  background-color:#fff;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  text-align: center;
+  font-family: 'Ubuntu', sans-serif;
+} 
+.boto10 {
+  width:15%;
+  padding:8px 16px;
+  margin-top:-37px;
+  margin-left: 590px; 
+  border:1px solid #000;
+  border-radius:5px;
+  display:block;
+  color:darkorange;
+  background-color:#fff;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  text-align: center;
+  font-family: 'Ubuntu', sans-serif;
+} 
+.boto11 {
+  width:10%;
+  padding:8px 16px;
+  margin-top:-39px;
+  margin-left: 1030px;
+  border:1px solid #000;
+  border-radius:5px;
+  display:block;
+  color:darkorange;
+  background-color:#fff;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  text-align: center;
+  font-family: 'Ubuntu', sans-serif;
+  }
+div.imatgeServeis1 {
+  width: 20%;
+  margin-left: 100px;
+  margin-top: 20px;
+  background-color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin-bottom: 25px;
+}
+div.imatgeServeis2 {
+  width: 20%;
+  margin-left: 525px;
+  margin-top: -304px;
+  background-color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin-bottom: 25px;
+}
+div.imatgeServeis3 {
+  width: 20%;
+  margin-left: 960px;
+  margin-top: -304px;
+  background-color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin-bottom: 25px;
+}
+.linia1{
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 340px;
+  width: 50%;
+}
+.imatgePC{
+  width: 20%;
+  margin-left: 970px;
+  margin-top: -200px;
+  background-color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin-bottom: 25px;
+}
+.imatgeConsola{
+  width: 20%;
+  margin-left: 200px;
+  margin-top: 70px;
+  background-color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin-bottom: 25px;
+}
+.contacte pre{
+  width: 100%;
+  margin-bottom: 20px;
+  font-family: 'Ubuntu', sans-serif;
+  padding: 10px 0px;
+  color: #fff;
+  text-align: center;
+}
+
+@media only screen and (max-width: 600px) {
+
+.img1{
+  position: relative;
+  margin-left: 30%;
+}
+.menu ul{
+  margin-left: -1px;
+}
+.caixa1 hr{
+  margin-left: -1px;
+  margin-left: 20px;
+  width: 90%;
+}
+.caixa1-1 hr{
+  margin-left: -1px;
+  margin-left: 20px;
+  width: 90%;
+}
+.caixa2 hr{
+  margin-left: -1px;
+  margin-left: 20px;
+  width: 90%;
+}
+.caixa2-2 hr{
+  margin-left: -1px;
+  margin-left: 20px;
+  width: 90%;
+}
+.caixa3 hr{
+  margin-left: -1px;
+  margin-left: 20px;
+  width: 90%;
+}
+.caixaTitol1 h1{
+  text-align: center;
+}
+.caixaText1{
+  width: 60%;
+  margin-top: 50px;
+  margin-left: 100px;
+  margin-bottom: 20px;
+  color: white;
+  text-align: justify;
+  font-family: 'Ubuntu', sans-serif;
+}
+.caixaText2 h1{
+  margin-left: -20px;
+}
+.caixaText3 h1{
+  margin-left: -20px;
+}
+.menu .caixa1 {
+  width: 100%;
+  height: 410px;
+  background-color: darkorange;
+}
+.menu .caixa1-1 {
+  width: 100%;
+  height: 560px;
+  background-color: darkorange;
+}
+.menu .caixa2 {
+  width: 100%;
+  height: 750px;
+}
+.menu .caixa3 {
+  width: 100%;
+  height: 300px;
+}
+
+.contacte{
+  width: 80%;
+  margin-bottom: 10px;
+  font-family: 'Ubuntu', sans-serif;
+  padding: 10px 0px;
+  font-size: 11px;
+  background-color: darkorange;
+}
+.menu ul li {
+  font-family: "Open Sans", sans-serif;
+  font-size: 1rem;
+  font-weight: 650;
+  color: #333;
+  display: inline-block;
+  padding: 13px;
+  position: relative;
+}
+.boto1 {
+  width:15%;
+  padding:8px 16px;
+  margin-top:35px;
+  margin-left: -1px;
+  margin-left: 50px;
+  border:1px solid #000;
+  border-radius:5px;
+  display:block;
+  color:darkorange;
+  background-color:#fff;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  text-align: center;
+  font-family: 'Ubuntu', sans-serif;
+} 
+.boto2 {
+  width:25%;
+  padding:8px 16px;
+  margin-top:-37px;
+  margin-left: 165px; 
+  border:1px solid #000;
+  border-radius:5px;
+  display:block;
+  color:darkorange;
+  background-color:#fff;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  text-align: center;
+  font-family: 'Ubuntu', sans-serif;
+} 
+.boto3 {
+  width:29%;
+  padding:8px 16px;
+  margin-top:-37px;
+  margin-left: 300px;
+  border:1px solid #000;
+  border-radius:5px;
+  display:block;
+  color:darkorange;
+  background-color:#fff;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  text-align: center;
+  font-family: 'Ubuntu', sans-serif;
+  }
+.boto4 {
+  width:60%;
+  margin-top:350px;
+  margin-left: 100px;
+  border:1px solid #000;
+  border-radius:5px;
+  display:block;
+  color:darkorange;
+  background-color:#fff;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  font-family: 'Ubuntu', sans-serif;
+  }
+.boto5 {
+  width:90%;
+  padding:8px 16px;
+  margin-top: 20px;
+  margin-left: 25px;
+  border:1px solid #000;
+  border-radius:5px;
+  display:block;
+  color:darkorange;
+  background-color:#fff;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  font-family: 'Ubuntu', sans-serif;
+  }
+.boto6 {
+  width:18%;
+  padding:8px 16px;
+  margin-top:72px;
+  margin-left: 15px;
+  border:1px solid #000;
+  border-radius:5px;
+  display:block;
+  color:darkorange;
+  background-color:#fff;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  text-align: center;
+  font-family: 'Ubuntu', sans-serif;
+} 
+.boto7 {
+  width:45%;
+  padding:8px 16px;
+  margin-top:-37px;
+  margin-left: 115px; 
+  border:1px solid #000;
+  border-radius:5px;
+  display:block;
+  color:darkorange;
+  background-color:#fff;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  text-align: center;
+  font-family: 'Ubuntu', sans-serif;
+} 
+.boto8 {
+  width:23%;
+  padding:8px 16px;
+  margin-top:-38px;
+  margin-left: 335px;
+  border:1px solid #000;
+  border-radius:5px;
+  display:block;
+  color:darkorange;
+  background-color:#fff;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  text-align: center;
+  font-family: 'Ubuntu', sans-serif;
+  }
+.boto9 {
+  width:20%;
+  padding:8px 16px;
+  margin-top:72px;
+  margin-left: 15px;
+  border:1px solid #000;
+  border-radius:5px;
+  display:block;
+  color:darkorange;
+  background-color:#fff;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  text-align: center;
+  font-family: 'Ubuntu', sans-serif;
+} 
+.boto10 {
+  width:40%;
+  padding:8px 16px;
+  margin-top:-37px;
+  margin-left: 130px; 
+  border:1px solid #000;
+  border-radius:5px;
+  display:block;
+  color:darkorange;
+  background-color:#fff;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  text-align: center;
+  font-family: 'Ubuntu', sans-serif;
+} 
+.boto11 {
+  width:25%;
+  padding:8px 16px;
+  margin-top:-37px;
+  margin-left: 325px;
+  border:1px solid #000;
+  border-radius:5px;
+  display:block;
+  color:darkorange;
+  background-color:#fff;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  text-align: center;
+  font-family: 'Ubuntu', sans-serif;
+  }
+div.imatgeServeis1 {
+  width: 28%;
+  margin-left: 20px;
+  margin-top: 20px;
+  background-color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin-bottom: 25px;
+}
+div.imatgeServeis2 {
+  width: 28%;
+  margin-left: 160px;
+  margin-top: -150px;
+  background-color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin-bottom: 25px;
+}
+div.imatgeServeis3 {
+  width: 28%;
+  margin-left: 300px;
+  margin-top: -150px;
+  background-color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin-bottom: 25px;
+}
+.imatgePC{
+  width: 60%;
+  margin-left: 100px;
+  margin-top: -500px;
+  background-color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin-bottom: 25px;
+}
+.imatgeConsola{
+  width: 60%;
+  margin-left: 90px;
+  margin-top: 30px;
+}
+.menu ul li {
+  font-family: "Open Sans", sans-serif;
+  font-size: 1rem;
+  font-weight: 650;
+  color: #333;
+  display: inline-block;
+  padding: 10px;
+  position: relative;
+}
+
+
+}
